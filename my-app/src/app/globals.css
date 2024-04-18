@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #4675a1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.video-section {
+  width: 65%;
+}
+
+.video-player {
+  width: 100%;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.volume-control {
+  margin-top: 0.5rem;
+}
+
+.play-button {
+  margin-top: 1rem;
+}
+
+.video-selection {
+  width: 35%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.video-selection button {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.filter-selection {
+  margin-top: 1rem;
+}
+
+.time-display {
+  margin-top: 0.5rem;
+}
